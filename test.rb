@@ -1,4 +1,6 @@
 first_name, last_name = ["John", "Smith"]
+empty_hash = Hash.new
+
 #assert_equal Array, empty_array.class
 #assert_equal nil, empty_array.size
 
@@ -12,7 +14,7 @@ first_name, last_name = ["John", "Smith"]
   
 #end
 
-print(last_name)
+print(empty_hash)
 
     #assert_equal __, 1.is_a?(Object)
     #assert_equal __, 1.5.is_a?(Object)
