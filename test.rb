@@ -14,7 +14,7 @@ empty_hash = Hash.new
   
 #end
 
-print(empty_hash)
+print("one two-three".gsub(/(t\w*)/) {"w"})
 
     #assert_equal __, 1.is_a?(Object)
     #assert_equal __, 1.5.is_a?(Object)
