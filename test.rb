@@ -88,7 +88,10 @@ for a in 1..6 do
   end
 end
 
-print(points)
+class Dog
+end
+fido = Dog.new
+print(fido.class)
 
 
 
