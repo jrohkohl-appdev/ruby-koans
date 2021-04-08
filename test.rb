@@ -88,10 +88,24 @@ for a in 1..6 do
   end
 end
 
-class Dog
+num_dice = 5
+array = []
+for a in 1..num_dice do
+  array << rand(1..6)
 end
-fido = Dog.new
-print(fido.class)
+
+  
+
+
+
+
+
+
+
+
+print(array)
+
+
 
 
 
